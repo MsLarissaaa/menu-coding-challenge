@@ -12,7 +12,7 @@ describe Validation do
       expect(extended_class.combo_valid?([appetizer1, appetizer2], 11.10)).to be true
     end
 
-    it 'returns false is the combination is invalid' do
+    it 'returns false if the combination is invalid' do
       expect(extended_class.combo_valid?([appetizer1, appetizer1, appetizer2], 11.10)).to be false
     end
   end
