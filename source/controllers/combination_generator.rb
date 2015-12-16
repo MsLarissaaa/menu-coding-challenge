@@ -13,7 +13,6 @@ class CombinationGenerator
   end
 
   def run
-
     @view.welcome_message
     @view.display_total(@total)
     @view.display_menu(@app_menu)
